@@ -1,0 +1,35 @@
+# Scrape restaurant data using this search:
+https://www.opentable.com/nearby/restaurants-near-me-san-francisco
+
+# 60 days in advance (more like 30 days for weekdays though)
+$$$ https://www.opentable.com/r/foreign-cinema-san-francisco
+
+# 30 days in advance
+# Reservations open 30 days in advance and fast booking is needed.
+$$$$ https://www.opentable.com/r/state-bird-provisions-san-francisco
+$$$$ https://www.opentable.com/kokkari-estiatorio
+
+# 1 month in advance, but 7-7:30 pm slots are not released
+$$$ https://www.opentable.com/r/seven-hills-san-francisco
+
+# 4 weeks in advance (limited though, seems like way more availability on weekdays)
+$$ https://www.opentable.com/la-ciccia
+
+# 14 days in advance
+# Reservations open ~2 months in advance, advance booking within ~14 days is recommended. 
+$$ https://www.opentable.com/starbelly
+$$ https://www.opentable.com/r/china-live-san-francisco
+
+# Reservations open 2 weeks in advance at midnight (requires credit card!)
+$$ https://www.opentable.com/r/nopa-san-francisco1
+
+# Only really need to book a week in advance
+https://www.opentable.com/r/trestle-san-francisco
+https://www.opentable.com/r/boho-san-francisco-1
+https://www.opentable.com/r/mathilde-french-bistro-san-francisco
+https://www.opentable.com/r/poesia-san-francisco
+https://www.opentable.com/r/bellota-san-francisco
+https://www.opentable.com/piqueos
+https://www.opentable.com/r/54-mint-san-francisco
+https://www.opentable.com/wayfare-tavern
+

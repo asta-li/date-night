@@ -1,0 +1,282 @@
+name,link,rating,num_reviews,price,cuisine,district,num_bookings
+Via Veneto - SF,https://www.opentable.com/r/via-veneto-sf-san-francisco,5,1,$$,Italian,Pacific Heights,0
+Indie Wine & Beer Bar,https://www.opentable.com/r/indie-wine-and-beer-bar-san-francisco,5,2,$$,Wine Bar,North Beach,5
+Firefly Restaurant,https://www.opentable.com/firefly-restaurant,5,2272,$$$,American,Noe Valley,8
+Nob Hill Cafe,https://www.opentable.com/r/nob-hill-cafe-san-francisco,5,1,$$$,Italian,Nob Hill,0
+Mission Bay Wine & Cheese,https://www.opentable.com/r/mission-bay-wine-and-cheese-114-channel-st,5,1,$$$,Wine Bar,Mission Bay / South Beach,2
+Akiko's Restaurant & Sushi Bar,https://www.opentable.com/r/akikos-restaurant-and-sushi-bar-san-francisco,5,1298,$$$$,Japanese,Downtown / Union Square,0
+Seven Hills,https://www.opentable.com/r/seven-hills-san-francisco,4.9,1581,$$$,Italian,Russian Hill,26
+Frascati,https://www.opentable.com/r/frascati-san-francisco,4.9,1995,$$$,Italian,Russian Hill,7
+Kitchen Istanbul,https://www.opentable.com/kitchen-istanbul,4.9,911,$$,Turkish,Richmond District,6
+Sociale - San Francisco,https://www.opentable.com/r/sociale-san-francisco,4.9,1959,$$$,Italian,Presidio Heights,32
+La Ciccia,https://www.opentable.com/la-ciccia,4.9,2506,$$,Italian,Noe Valley,17
+Sushi Shio,https://www.opentable.com/r/sushi-shio-san-francisco,4.9,83,$$$$,Japanese,Mission,19
+Maruya,https://www.opentable.com/maruya,4.9,234,$$$$,Japanese,Mission,11
+Mission Bowling Club,https://www.opentable.com/r/mission-bowling-club-san-francisco,4.9,2,$$,American,Mission,14
+Paprika,https://www.opentable.com/r/paprika-san-francisco,4.9,112,$$,Hungarian,Mission,0
+Komaaj Kitchen,https://www.opentable.com/r/komaaj-kitchen-san-francisco,4.9,15,$$,Persian,Mission,18
+Outer Orbit,https://www.opentable.com/r/outer-orbit-san-francisco,4.9,20,$$,Contemporary American,Mission,16
+The Matterhorn Restaurant and Bakery,https://www.opentable.com/r/the-matterhorn-restaurant-and-bakery-san-francisco,4.9,113,$$,Swiss,Marina / Cow Hollow / Presidio,15
+Terzo,https://www.opentable.com/r/terzo-san-francisco,4.9,1672,$$$,Mediterranean,Marina / Cow Hollow / Presidio,46
+Kokkari Estiatorio,https://www.opentable.com/kokkari-estiatorio,4.9,6961,$$$,Mediterranean,Financial District / Embarcadero,79
+O' by Claude Le Tohic,https://www.opentable.com/r/o-by-claude-le-tohic-san-francisco,4.9,22,$$$$,Contemporary French,Downtown / Union Square,0
+House of Prime Rib,https://www.opentable.com/house-of-prime-rib,4.9,11548,$$$$,Steak,Civic Center / Hayes Valley / Van Ness,126
+L'Ardoise,https://www.opentable.com/lardoise,4.9,2684,$$$,French,Castro,35
+State Bird Provisions,https://www.opentable.com/r/state-bird-provisions-san-francisco,4.8,1686,$$$$,Californian,Western Addition,50
+Montesacro SF,https://www.opentable.com/r/montesacro-pinseria-san-francisco,4.8,1326,$$,Pizzeria,SOMA,36
+Burma Love Downtown,https://www.opentable.com/r/burma-love-downtown-san-francisco,4.8,22,$$$,Burmese,SOMA,23
+Mathilde French Bistro,https://www.opentable.com/r/mathilde-french-bistro-san-francisco,4.8,2000,$$$$,French,SOMA,31
+The Fly Trap,https://www.opentable.com/the-fly-trap,4.8,1168,$$,Contemporary American,SOMA,42
+International Smoke San Francisco,https://www.opentable.com/r/international-smoke-san-francisco,4.8,2461,$$,American,SOMA,40
+District - San Francisco,https://www.opentable.com/r/district-san-francisco,4.8,196,$$$,Tapas / Small Plates,SOMA,0
+Nopa - San Francisco,https://www.opentable.com/r/nopa-san-francisco1,4.8,2592,$$,Californian,San Francisco,0
+The Anchovy Bar,https://www.opentable.com/r/the-anchovy-bar-san-francisco,4.8,106,$$$$,Oyster Bar,San Francisco,0
+Harris',https://www.opentable.com/r/harris-san-francisco,4.8,4036,$$$$,Steakhouse,Russian Hill,16
+Ristorante Milano,https://www.opentable.com/r/ristorante-milano-san-francisco,4.8,1615,$$$,Italian,Russian Hill,15
+Fiorella Polk,https://www.opentable.com/r/fiorella-polk-san-francisco,4.8,173,$$,Italian,Russian Hill,9
+Chapeau,https://www.opentable.com/chapeau,4.8,3118,$$$$,French,Richmond District,29
+Lokma,https://www.opentable.com/r/lokma-san-francisco,4.8,253,$$,Turkish,Richmond District,9
+Fiorella Clement,https://www.opentable.com/r/fiorella-san-francisco,4.8,804,$$,Italian,Richmond District,29
+Spruce,https://www.opentable.com/r/spruce-san-francisco,4.8,3877,$$$,Contemporary American,Presidio Heights,67
+Troya,https://www.opentable.com/troya-mediterranean,4.8,400,$$,Mediterranean,Pacific Heights,17
+Caffe Macaroni,https://www.opentable.com/caffe-macaroni,4.8,533,$$,Italian,North Beach,13
+Baonecci Ristorante,https://www.opentable.com/baonecci-ristorante,4.8,745,$$$,Italian,North Beach,10
+Luisa's Restaurant Wine bar since 1959,https://www.opentable.com/r/luisas-restaurant-wine-bar-since-1959-san-francisco,4.8,26,$$,Italian,North Beach,10
+Lupa Trattoria,https://www.opentable.com/lupa-trattoria,4.8,771,$$,Italian,Noe Valley,21
+Osso Steakhouse,https://www.opentable.com/osso-steakhouse,4.8,1829,$$$,Steakhouse,Nob Hill,59
+Anchor Public Taps,https://www.opentable.com/r/anchor-public-taps-san-francisco,4.8,8,$$,Brewery,Mission Bay / South Beach,0
+Burma Love,https://www.opentable.com/r/burma-love-san-francisco,4.8,7,$$,Burmese,Mission,35
+Lolinda,https://www.opentable.com/r/lolinda-san-francisco,4.8,2131,$$,Argentinean,Mission,56
+Urban Putt San Francisco,https://www.opentable.com/r/urban-putt-san-francisco-san-francisco,4.8,427,$$,American,Mission,66
+Sushi Hon,https://www.opentable.com/r/sushi-hon-san-francisco,4.8,259,$$$$,Sushi,Mission,20
+Foreign Cinema,https://www.opentable.com/r/foreign-cinema-san-francisco,4.8,7407,$$$,Californian,Mission,96
+Pane e Vino Trattoria,https://www.opentable.com/pane-e-vino-trattoria,4.8,687,$$$,Italian,Marina / Cow Hollow / Presidio,51
+Rose's Cafe,https://www.opentable.com/r/roses-cafe-san-francisco,4.8,407,$$,Californian,Marina / Cow Hollow / Presidio,27
+Alegrias Food from Spain,https://www.opentable.com/alegrias-food-from-spain,4.8,825,$$,Tapas / Small Plates,Marina / Cow Hollow / Presidio,11
+Boho,https://www.opentable.com/r/boho-san-francisco-1,4.8,304,$$,Contemporary American,Marina / Cow Hollow / Presidio,16
+Gold Mirror Italian Restaurant,https://www.opentable.com/r/gold-mirror-italian-restaurant-san-francisco,4.8,750,$$$,Italian,Forest Hill / West Portal,15
+Trestle,https://www.opentable.com/r/trestle-san-francisco,4.8,1611,$$,American,Financial District / Embarcadero,39
+Perbacco,https://www.opentable.com/r/perbacco-san-francisco,4.8,6272,$$,Italian,Financial District / Embarcadero,44
+La Fusion Restaurant,https://www.opentable.com/r/la-fusion-restaurant-san-francisco,4.8,1,$$,Latin American,Financial District / Embarcadero,0
+KUSAKABE,https://www.opentable.com/kusakabe,4.8,336,$$$$,Sushi,Financial District / Embarcadero,0
+Serafina SF,https://www.opentable.com/r/serafina-sf-san-francisco,4.8,66,$$$,Italian,Downtown / Union Square,27
+Il Borgo,https://www.opentable.com/r/il-borgo-san-francisco,4.8,497,$$,Italian,Civic Center / Hayes Valley / Van Ness,8
+Alamo Square Seafood Grill,https://www.opentable.com/alamo-square-seafood-grill,4.8,1466,$$,Seafood,Civic Center / Hayes Valley / Van Ness,0
+Zuni Cafe,https://www.opentable.com/zuni-cafe,4.8,6669,$$$,Modern European,Civic Center / Hayes Valley / Van Ness,35
+Poesia,https://www.opentable.com/r/poesia-san-francisco,4.8,1973,$$$,Italian,Castro,37
+Thai Chef 2,https://www.opentable.com/r/thai-chef-2-san-francisco,4.8,3,$$,Thai,Castro,2
+Uma Casa,https://www.opentable.com/r/uma-casa-san-francisco,4.8,39,$$$$,Portuguese,Bernal Heights,3
+Pacific Catch - Sunset District,https://www.opentable.com/r/pacific-catch-sunset-district-san-francisco,4.7,1539,$$,Seafood,Sunset District,33
+Amoura Restaurant,https://www.opentable.com/amoura-restaurant,4.7,318,$$,Mediterranean,South San Francisco,6
+Basil Canteen @ 11th Street,https://www.opentable.com/basil-canteen,4.7,413,$$,Thai,SOMA,0
+Bellota,https://www.opentable.com/r/bellota-san-francisco,4.7,1179,$$$,Spanish,SOMA,30
+54 Mint,https://www.opentable.com/r/54-mint-san-francisco,4.7,2269,$$$,Italian,SOMA,38
+Gyu-Kaku - San Francisco,https://www.opentable.com/r/gyu-kaku-san-francisco,4.7,10,$$,Japanese,SOMA,37
+Palette,https://www.opentable.com/r/palette-san-francisco,4.7,120,$$$,Contemporary American,SOMA,67
+Black Hammer Brewing,https://www.opentable.com/r/black-hammer-brewing-san-francisco,4.7,18,$$$,Brewery,SOMA,16
+Benu,https://www.opentable.com/r/benu-san-francisco,4.7,1609,$$$$,Contemporary American,SOMA,0
+ROOH San Francisco,https://www.opentable.com/r/rooh-san-francisco,4.7,871,$$$,Contemporary Indian,SOMA,0
+Amarena,https://www.opentable.com/r/amarena-san-francisco,4.7,1011,$$$,Italian,Russian Hill,41
+Abrazo,https://www.opentable.com/r/abrazo-san-francisco,4.7,143,$$$,Spanish,Russian Hill,49
+Bella Trattoria,https://www.opentable.com/r/bella-trattoria-italiana-san-francisco,4.7,1812,$$,Italian,Richmond District,48
+Magic Flute,https://www.opentable.com/magic-flute,4.7,1289,$$,Italian,Pacific Heights,8
+California Fish Market Restaurant,https://www.opentable.com/r/california-fish-market-restaurant-san-francisco,4.7,58,$$,Italian,North Beach,3
+NOVY,https://www.opentable.com/r/novy-san-francisco-2,4.7,267,$$,Greek,Noe Valley,42
+Miller's  Rest,https://www.opentable.com/r/millers-rest-san-francisco,4.7,44,$$,American,Nob Hill,31
+Sasaki,https://www.opentable.com/r/sasaki-san-francisco,4.7,133,$$$$,Japanese,Mission,5
+Tuba Restaurant,https://www.opentable.com/tuba-restaurant,4.7,949,$$$,Turkish,Mission,9
+Caffe Fiore - San Francisco,https://www.opentable.com/caffe-fiore-san-francisco,4.7,280,$$,Italian,Mission,9
+Sake Bomb,https://www.opentable.com/r/sake-bomb-san-francisco,4.7,7,$$,Sushi,Mission,6
+Rosamunde Sausage Grill San Francisco,https://www.opentable.com/r/rosamunde-sausage-grill-san-francisco,4.7,15,$$,German,Mission,8
+Heirloom Cafe,https://www.opentable.com/heirloom-cafe,4.7,1098,$$,Californian,Mission,0
+TamashiSoul Sushi Bar,https://www.opentable.com/tamashisoul-sushi-bar,4.7,114,$$$,Japanese,Marina / Cow Hollow / Presidio,14
+Ace Wasabi Rock-N-Roll Sushi,https://www.opentable.com/ace-wasabis-rock-n-roll-sushi,4.7,103,$$,Sushi,Marina / Cow Hollow / Presidio,42
+A16 - San Francisco,https://www.opentable.com/r/a16-san-francisco,4.7,4417,$$$,Italian,Marina / Cow Hollow / Presidio,79
+Cafe Tiramisu,https://www.opentable.com/r/cafe-tiramisu-san-francisco,4.7,1240,$$$,Italian,Financial District / Embarcadero,17
+Pabu Izakaya San Francisco,https://www.opentable.com/r/pabu-izakaya-san-francisco-san-francisco,4.7,1170,$$$,Japanese,Financial District / Embarcadero,31
+Roka Akor - San Francisco,https://www.opentable.com/r/roka-akor-san-francisco,4.7,1442,$$,Japanese,Financial District / Embarcadero,48
+BIX,https://www.opentable.com/r/bix-san-francisco,4.7,3846,$$$,American,Financial District / Embarcadero,29
+One Market Restaurant,https://www.opentable.com/r/one-market-restaurant-san-francisco,4.7,4266,$$$,Contemporary American,Financial District / Embarcadero,28
+Waterbar,https://www.opentable.com/r/waterbar-san-francisco,4.7,8319,$$$,Seafood,Financial District / Embarcadero,125
+La Mar Cebicheria Peruana,https://www.opentable.com/r/la-mar-cebicheria-peruana-san-francisco,4.7,6086,$$$,Peruvian,Financial District / Embarcadero,209
+Mourad,https://www.opentable.com/mourad,4.7,2143,$$$$,Californian,Financial District / Embarcadero,0
+Barcha,https://www.opentable.com/barcha,4.7,856,$$$,Mediterranean,Financial District / Embarcadero,42
+Historic John's Grill,https://www.opentable.com/r/historic-johns-grill-san-francisco,4.7,5494,$$$,American,Downtown / Union Square,47
+Dirty Habit,https://www.opentable.com/dirty-habit,4.7,584,$$$,Californian,Downtown / Union Square,17
+Aliment,https://www.opentable.com/aliment,4.7,564,$$$,American,Downtown / Union Square,16
+Nakama Sushi - San Francisco,https://www.opentable.com/r/nakama-sushi-san-francisco,4.7,94,$$$,Sushi,Civic Center / Hayes Valley / Van Ness,17
+Otoro Sushi,https://www.opentable.com/otoro-sushi,4.7,691,$$,Japanese,Civic Center / Hayes Valley / Van Ness,0
+Tipple's Recording Studio,https://www.opentable.com/r/mr-tipples-recording-studio-san-francisco,4.7,115,$$,Cocktail Bar,Civic Center / Hayes Valley / Van Ness,18
+Mr. Tipple's Recording Studio,https://www.opentable.com/r/mr-tipples-recording-studio-san-francisco,4.7,115,$$,Cocktail Bar,Civic Center / Hayes Valley / Van Ness,13
+August (1) Five,https://www.opentable.com/r/august-1-five-san-francisco,4.7,1277,$$$$,Indian,Civic Center / Hayes Valley / Van Ness,0
+China Live,https://www.opentable.com/r/china-live-san-francisco,4.7,1584,$$,Chinese,Chinatown,89
+Willkommen,https://www.opentable.com/r/willkommen-san-francisco,4.7,69,$$,Beer Garden,Castro,52
+Canela Bistro & Wine Bar,https://www.opentable.com/r/canela-bistro-and-wine-bar-san-francisco,4.7,1108,$$$,Spanish,Castro,39
+Fable - SF,https://www.opentable.com/r/fable-san-francisco,4.7,1166,$$,Californian,Castro,66
+Piqueos,https://www.opentable.com/piqueos,4.7,1038,$$,Tapas / Small Plates,Bernal Heights,15
+Sushi Ondo,https://www.opentable.com/r/sushi-ondo-san-francisco,4.6,88,$$$$,Japanese,SOMA,0
+Izakaya Hon,https://www.opentable.com/r/izakaya-hon-san-francisco,4.6,9,$$,Japanese,SOMA,9
+Buena Vida Cantina,https://www.opentable.com/r/buena-vida-cantina-san-francisco,4.6,13,$$,Contemporary Mexican,SOMA,32
+Alexander's Steakhouse - SF,https://www.opentable.com/r/alexanders-steakhouse-sf-san-francisco,4.6,2125,$$$$,Steakhouse,SOMA,30
+Local Kitchen & Wine Merchant,https://www.opentable.com/r/local-kitchen-and-wine-merchant-san-francisco,4.6,923,$$,Contemporary American,SOMA,0
+Cento Osteria,https://www.opentable.com/r/cento-osteria-san-francisco,4.6,240,$$,Italian,SOMA,17
+EPIC Steak,https://www.opentable.com/r/epic-steak-san-francisco,4.6,5969,$$$$,Steakhouse,SOMA,110
+The Patio by Alexander's Steakhouse,https://www.opentable.com/r/the-patio-by-alexanders-steakhouse-francisco,4.6,230,$$$,Contemporary American,SOMA,0
+Che Fico Alimentari,https://www.opentable.com/r/che-fico-alimentari-san-francisco,4.6,206,$$,Italian,San Francisco,9
+Cocotte,https://www.opentable.com/r/cocotte-san-francisco,4.6,1028,$$,French,Russian Hill,36
+Violet’s,https://www.opentable.com/r/violets-san-francisco,4.6,286,$$$,American,Richmond District,23
+Mochica,https://www.opentable.com/r/mochica-san-francisco,4.6,1223,$$$,Peruvian,Potrero Hill / Dogpatch,41
+Magnolia Brewing – Dogpatch,https://www.opentable.com/r/magnolia-dogpatch-san-francisco,4.6,68,$$,Contemporary Mexican,Potrero Hill / Dogpatch,11
+Gardenias,https://www.opentable.com/gardenias,4.6,605,$$,American,Pacific Heights,19
+Florio,https://www.opentable.com/florio,4.6,1337,$$,French,Pacific Heights,24
+Chouquet's,https://www.opentable.com/chouquets,4.6,1171,$$,French,Pacific Heights,75
+Jackson Fillmore Trattoria,https://www.opentable.com/jackson-fillmore-trattoria,4.6,1077,$$$,Italian,Pacific Heights,13
+The Tailor's Son,https://www.opentable.com/r/the-tailors-son-san-francisco,4.6,48,$$,Italian,Pacific Heights,60
+Scopo Divino,https://www.opentable.com/r/scopo-divino-san-francisco,4.6,8,$$,Contemporary American,Pacific Heights,0
+Fior D'Italia,https://www.opentable.com/fior-d-italia-san-francisco,4.6,1121,$$$,Italian,North Beach,17
+Ti Piacera,https://www.opentable.com/ti-piacera,4.6,552,$$,Italian,Nob Hill,15
+Khamsa Restaurant,https://www.opentable.com/r/khamsa-restaurant-san-francisco,4.6,233,$$,Moroccan,Mission,11
+Palm House,https://www.opentable.com/r/palm-house-san-francisco,4.6,329,$$,Caribbean,Marina / Cow Hollow / Presidio,39
+Sushi Hakko,https://www.opentable.com/r/sushi-hakko-san-francisco,4.6,22,$$$$,Japanese,Marina / Cow Hollow / Presidio,22
+Bobo's,https://www.opentable.com/bobos,4.6,2801,$$$,Steak,Marina / Cow Hollow / Presidio,39
+The Dorian,https://www.opentable.com/r/the-dorian-san-francisco,4.6,340,$$,American,Marina / Cow Hollow / Presidio,62
+Isa,https://www.opentable.com/r/isa-san-francisco,4.6,2569,$$,French American,Marina / Cow Hollow / Presidio,43
+The Patio,https://www.opentable.com/r/the-patio-san-francisco,4.6,112,$$$,Contemporary American,Marina / Cow Hollow / Presidio,46
+Presidio Social Club,https://www.opentable.com/presidio-social-club,4.6,3726,$$$,American,Marina / Cow Hollow / Presidio,15
+Sessions at the Presidio,https://www.opentable.com/sessions-at-the-presidio,4.6,1153,$$,Californian,Marina / Cow Hollow / Presidio,31
+Greens Restaurant,https://www.opentable.com/greens-restaurant-san-francisco,4.6,9677,$$$,Vegetarian / Vegan,Marina / Cow Hollow / Presidio,122
+The Snug,https://www.opentable.com/r/the-snug-san-francisco,4.6,28,$$,Contemporary American,Marina / Cow Hollow / Presidio,0
+Uva Enoteca,https://www.opentable.com/r/uva-enoteca-san-francisco,4.6,771,$$,Italian,Haight,16
+Magnolia Brewing - Haight,https://www.opentable.com/r/magnolia-brewing-company-haight-san-francisco,4.6,42,$$,Californian,Haight,0
+Chou Chou Bistro,https://www.opentable.com/r/chou-chou-bistro-san-francisco,4.6,2198,$$,Contemporary French,Forest Hill / West Portal,4
+Barnzu Korean Restaurant,https://www.opentable.com/r/barnzu-korean-restaurant-san-francisco,4.6,84,$$$,Contemporary Korean,Financial District / Embarcadero,0
+Palio,https://www.opentable.com/r/palio-san-francisco,4.6,1342,$$$,Italian,Financial District / Embarcadero,9
+Wayfare Tavern,https://www.opentable.com/wayfare-tavern,4.6,6095,$$,American,Financial District / Embarcadero,169
+Osha Thai Embarcadero,https://www.opentable.com/osha-thai-embarcadero,4.6,71,$$,Thai,Financial District / Embarcadero,16
+Harborview Restaurant & Bar,https://www.opentable.com/r/harborview-restaurant-and-bar-san-francisco,4.6,299,$$$,Chinese,Financial District / Embarcadero,55
+Ozumo - San Francisco,https://www.opentable.com/r/ozumo-san-francisco,4.6,2885,$$$$,Japanese,Financial District / Embarcadero,74
+COQUETA - San Francisco,https://www.opentable.com/r/coqueta-san-francisco,4.6,2284,$$$$,Spanish,Financial District / Embarcadero,65
+Doppio Zero - San Francisco,https://www.opentable.com/r/doppio-zero-san-francisco,4.6,52,$$,Italian,Downtown / Union Square,0
+Bazille - Nordstrom San Francisco Centre,https://www.opentable.com/r/bazille-nordstrom-san-francisco-centre-san-francisco,4.6,312,$$,Contemporary American,Downtown / Union Square,4
+Amber India - San Francisco,https://www.opentable.com/r/amber-india-san-francisco,4.6,2689,$$$,Indian,Downtown / Union Square,24
+Bouche,https://www.opentable.com/r/bouche-san-francisco,4.6,1346,$$$$,French,Downtown / Union Square,11
+Cafe de la Presse,https://www.opentable.com/cafe-de-la-presse,4.6,1661,$$,French,Downtown / Union Square,27
+B44,https://www.opentable.com/r/b44-san-francisco,4.6,1798,$$,Spanish,Downtown / Union Square,0
+Absinthe Brasserie and Bar - SF,https://www.opentable.com/absinthe-brasserie-and-bar,4.6,6431,$$$,French,Civic Center / Hayes Valley / Van Ness,41
+BAIA,https://www.opentable.com/r/baia-san-francisco,4.6,221,$$,Italian,Civic Center / Hayes Valley / Van Ness,69
+Hinata Sushi,https://www.opentable.com/r/hinata-sushi-san-francisco,4.6,10,$$$$,Japanese,Civic Center / Hayes Valley / Van Ness,0
+Onsen,https://www.opentable.com/r/onsen-san-francisco,4.6,142,$$$,Japanese,Civic Center / Hayes Valley / Van Ness,0
+Starbelly,https://www.opentable.com/starbelly,4.6,1041,$$,Californian,Castro,83
+Catch - San Francisco,https://www.opentable.com/catch-san-francisco,4.6,3002,$$$,Seafood,Castro,64
+Hardwood Bar & Smokery,https://www.opentable.com/r/hardwood-bar-and-smokery-san-francisco,4.5,46,$$,Barbecue,SOMA,15
+Grill at the St,https://www.opentable.com/grill-at-the-st-regis,4.5,151,$$$,Californian,SOMA,0
+Petit Marlowe,https://www.opentable.com/r/petit-marlowe-san-francisco,4.5,89,$$$,French,SOMA,0
+Jersey Restaurant,https://www.opentable.com/jersey-restaurant,4.5,174,$$,Italian,SOMA,0
+Yank Sing - Stevenson Street,https://www.opentable.com/yank-sing-stevenson-street,4.5,1306,$$,Dim Sum,SOMA,0
+Amelie,https://www.opentable.com/amelie-san-francisco,4.5,138,$$,Wine Bar,Russian Hill,0
+Berber SF,https://www.opentable.com/r/berber-sf-san-francisco,4.5,24,$$,North African,Russian Hill,0
+Garibaldi's on Presidio,https://www.opentable.com/garibaldis-on-presidio,4.5,1984,$$$,Californian,Presidio Heights,23
+Curbside Cafe,https://www.opentable.com/curbside-cafe,4.5,623,$$,French,Pacific Heights,18
+Barbara Pinseria,https://www.opentable.com/r/barbara-pinseria-san-francisco,4.5,50,$$,Pizzeria,North Beach,16
+Ideale,https://www.opentable.com/r/ideale-san-francisco,4.5,1285,$$$,Italian,North Beach,0
+Thai Spice,https://www.opentable.com/thai-spice,4.5,97,$$,Thai,Nob Hill,4
+Seven Stills Brewery & Distillery,https://www.opentable.com/r/seven-stills-brewery-and-distillery-san-francisco,4.5,86,$$,Californian,Mission Bay / South Beach,37
+Dancing Yak,https://www.opentable.com/r/dancing-yak-san-francisco,4.5,129,$$,Nepalese,Mission,12
+Gracias Madre - SF,https://www.opentable.com/gracias-madre-sf,4.5,1096,$$,Mexican,Mission,23
+Yoji House,https://www.opentable.com/r/yoji-house-san-francisco,4.5,1,$$$,Sushi,Mission,9
+Hoffmann's Grill & Rotisserie,https://www.opentable.com/hoffmanns-grill-and-rotisserie,4.5,164,$$,Californian,Mission,0
+Izzy's Steaks & Chops - San Francisco,https://www.opentable.com/izzys-steaks-and-chops-san-francisco,4.5,751,$$$,Steakhouse,Marina / Cow Hollow / Presidio,17
+SAIWALKS,https://www.opentable.com/saiwalks-vietnamese-street-food,4.5,10,$$,Vietnamese,Marina / Cow Hollow / Presidio,2
+Manzoni,https://www.opentable.com/manzoni,4.5,356,$$$,Italian,Glen Park,8
+Spiazzo Ristorante,https://www.opentable.com/r/spiazzo-ristorante-san-francisco,4.5,941,$$,Italian,Forest Hill / West Portal,15
+Cafe Bastille,https://www.opentable.com/cafe-bastille,4.5,1118,$$,French,Financial District / Embarcadero,12
+The Vault Garden,https://www.opentable.com/r/the-vault-restaurant-san-francisco,4.5,421,$$$,Californian,Financial District / Embarcadero,57
+Perry's - Embarcadero,https://www.opentable.com/perrys-embarcadero,4.5,1799,$$,American,Financial District / Embarcadero,47
+Charmaine's Rooftop Lounge,https://www.opentable.com/r/charmaines-rooftop-lounge-san-francisco,4.5,447,$$$,Californian,Downtown / Union Square,76
+Chambers Eat + Drink,https://www.opentable.com/chambers-eat-and-drink,4.5,519,$$,Californian,Downtown / Union Square,30
+ANZU,https://www.opentable.com/r/anzu-san-francisco,4.5,2330,$$$,Californian,Downtown / Union Square,11
+Mastro's Steakhouse - San Francisco,https://www.opentable.com/r/mastros-steakhouse-san-francisco,4.5,532,$$$$,Steak,Downtown / Union Square,106
+Matador - San Francisco,https://www.opentable.com/r/matador-san-francisco,4.5,12,$$$,Mexican,Downtown / Union Square,4
+Mela Tandoori Kitchen,https://www.opentable.com/mela-tandoori-kitchen,4.5,446,$$,Indian,Civic Center / Hayes Valley / Van Ness,5
+PLAJ,https://www.opentable.com/plaj,4.5,2173,$$$,Scandinavian,Civic Center / Hayes Valley / Van Ness,0
+Monsieur Benjamin,https://www.opentable.com/monsieur-benjamin,4.5,2228,$$$$,French,Civic Center / Hayes Valley / Van Ness,0
+Mister Jiu's,https://www.opentable.com/r/mister-jius-san-francisco,4.5,133,$$$$,Chinese,Chinatown,0
+Harvey's,https://www.opentable.com/r/harveys-san-francisco,4.5,5,$$,American,Castro,0
+LaLe Mediterranean & Turkish Restaurant,https://www.opentable.com/r/lale-mediterranean-restaurant-san-francisco,4.4,22,$$,Mediterranean,Sunset District,5
+SOMA Restaurant & Bar,https://www.opentable.com/soma-restaurant-and-bar,4.4,117,$$,Italian,SOMA,5
+Fogo de Chao - San Francisco,https://www.opentable.com/r/fogo-de-chao-brazilian-steakhouse-san-francisco,4.4,1358,$$$$,Brazilian Steakhouse,SOMA,108
+Marlowe,https://www.opentable.com/r/marlowe-san-francisco,4.4,2692,$$,American,SOMA,0
+Atlas Tap Room,https://www.opentable.com/r/atlas-tap-room-san-francisco,4.4,22,$$,Contemporary American,SOMA,0
+Rooftop 25,https://www.opentable.com/r/rooftop-25-san-francisco,4.4,1708,$$$,Contemporary American,SOMA,10
+Bar El Lopo,https://www.opentable.com/r/bar-el-lopo-san-francisco,4.4,13,$$,Tapas / Small Plates,Russian Hill,3
+Red Tavern,https://www.opentable.com/red-tavern,4.4,167,$$,Russian,Richmond District,2
+Noosh,https://www.opentable.com/r/noosh-san-francisco,4.4,5,$$,Mediterranean,Pacific Heights,58
+Jannah / Yaya Cuisine,https://www.opentable.com/jannah,4.4,163,$$,Iraqi,North Panhandle / USF,0
+Cafe Zoetrope,https://www.opentable.com/cafe-zoetrope,4.4,172,$$,Italian,North Beach,11
+Acquolina,https://www.opentable.com/acquolina,4.4,252,$$$,Italian,North Beach,32
+Mr,https://www.opentable.com/r/mr-digbys-san-francisco,4.4,26,$$$,American,Noe Valley,28
+Digby's,https://www.opentable.com/r/mr-digbys-san-francisco,4.4,26,$$$,American,Noe Valley,30
+Parallel 37,https://www.opentable.com/r/parallel37-san-francisco,4.4,752,$$$,American,Nob Hill,0
+McCormick & Kuleto's Seafood Restaurant,https://www.opentable.com/r/mccormick-and-kuletos-seafood-restaurant-san-francisco,4.4,4896,$$,Seafood,Fisherman's Wharf,64
+Aquitaine,https://www.opentable.com/aquitaine-san-francisco,4.4,203,$$,French,Financial District / Embarcadero,0
+Pachino Pizzeria,https://www.opentable.com/r/pachino-pizzeria-san-francisco,4.4,1,$$,Pizzeria,Financial District / Embarcadero,0
+Le Colonial - SF,https://www.opentable.com/le-colonial-san-francisco,4.4,3369,$$$,Vietnamese,Downtown / Union Square,0
+Cesario's,https://www.opentable.com/cesarios,4.4,900,$$$,Italian,Downtown / Union Square,16
+Sam’s Grill & Seafood Restaurant,https://www.opentable.com/sams-grill-and-seafood-restaurant,4.4,594,$$$,Seafood,Downtown / Union Square,0
+The Rotunda at Neiman Marcus - San Francisco,https://www.opentable.com/the-rotunda-at-neiman-marcus,4.4,4271,$$$,Contemporary American,Downtown / Union Square,13
+Villon,https://www.opentable.com/r/villon-san-francisco,4.4,623,$$$,Californian,Downtown / Union Square,8
+Spice of America,https://www.opentable.com/r/spice-of-america-san-francisco,4.4,82,$$,Indian,Civic Center / Hayes Valley / Van Ness,0
+Bistro 10UN,https://www.opentable.com/bistro-10un,4.4,165,$$,American,Civic Center / Hayes Valley / Van Ness,0
+Z & Y Restaurant,https://www.opentable.com/z-and-y-restaurant,4.4,203,$$,Chinese,Chinatown,0
+Lao Table,https://www.opentable.com/r/lao-table-san-francisco,4.3,232,$$,Thai,SOMA,0
+Fringale,https://www.opentable.com/r/fringale-san-francisco,4.3,2354,$$$,French,SOMA,0
+Osha Thai 3rd Street,https://www.opentable.com/osha-thai-3rd-street,4.3,283,$$,Thai,SOMA,0
+Camp BBQ,https://www.opentable.com/camp-bbq,4.3,62,$$,Japanese,Richmond District,3
+Chili House,https://www.opentable.com/chili-house,4.3,211,$$,Chinese,Richmond District,9
+Barrel Head Brewhouse,https://www.opentable.com/r/barrel-head-brewhouse-san-francisco,4.3,19,$$,American,North Panhandle / USF,0
+Yarsa Nepalese Cuisine,https://www.opentable.com/r/yarsa-nepalese-cuisine-san-francisco,4.3,3,$$,Nepalese,North Beach,0
+Krua Thai - San Francisco,https://www.opentable.com/r/krua-thai-san-francisco,4.3,137,$$,Thai,Mission,3
+Lolo,https://www.opentable.com/lolo,4.3,381,$$$$,Mexican,Mission,0
+Aslam's Rasoi,https://www.opentable.com/aslams-rasoi,4.3,182,$$,Indian,Mission,0
+Pa'ina Restaurant and Bar,https://www.opentable.com/r/paina-restaurant-and-bar-san-francisco,4.3,106,$$,Hawaiian,Japantown,0
+SINI,https://www.opentable.com/r/sini-san-francisco,4.3,1,$$,Mediterranean,Financial District / Embarcadero,0
+Per Diem,https://www.opentable.com/r/per-diem-san-francisco,4.3,967,$$,Californian,Financial District / Embarcadero,0
+Zingari Ristorante & Rooftop,https://www.opentable.com/r/zingari-rooftop-ristorante-san-francisco,4.3,2127,$$$$,Italian,Downtown / Union Square,21
+Morton's The Steakhouse - San Francisco,https://www.opentable.com/r/mortons-the-steakhouse-san-francisco,4.3,3310,$$,Steakhouse,Downtown / Union Square,61
+E&O Kitchen and Bar,https://www.opentable.com/r/e-and-o-kitchen-and-bar-san-francisco,4.3,2757,$$,Asian,Downtown / Union Square,0
+All Spice - San Francisco - Permanently Closed,https://www.opentable.com/all-spice-san-francisco-permanently-closed,4.3,65,$$$$,Contemporary American,Downtown / Union Square,0
+Hops & Hominy,https://www.opentable.com/hops-and-hominy,4.3,1200,$$,Southern,Downtown / Union Square,0
+Golden Crab House,https://www.opentable.com/r/golden-crab-house-san-francisco,4.2,6,$$$,Seafood,Sunset District,7
+Chevys Fresh Mex - South San Francisco,https://www.opentable.com/r/chevys-fresh-mex-south-sf-south-san-francisco,4.2,97,$$$,Mexican,South San Francisco,10
+Ame - Permanently Closed,https://www.opentable.com/ame-permanently-closed,4.2,1150,$$$$,Contemporary American,SOMA,0
+The Garden Court - Luxury Collection,https://www.opentable.com/r/garden-court-san-francisco,4.2,1976,$$$$,Californian,SOMA,0
+Lord Stanley,https://www.opentable.com/lord-stanley,4.2,85,$$$,Contemporary European,Russian Hill,0
+Gilberth's Latin Fusion,https://www.opentable.com/r/gilberths-latin-fusion-san-francisco,4.2,172,$$,Latin American,Potrero Hill / Dogpatch,6
+Top of the Mark,https://www.opentable.com/top-of-the-mark,4.2,829,$$$,Californian,Nob Hill,0
+Colombini Italian Cafe & Bistro - Nob Hill Hotel,https://www.opentable.com/colombini-italian-cafe-and-bistro-nob-hill-hotel,4.2,232,$$$,Italian,Nob Hill,0
+Blue Pea - Thai Bistro,https://www.opentable.com/r/blue-pea-thai-bistro-san-francisco,4.2,35,$$,Thai,Mission,0
+Tratto - San Francisco,https://www.opentable.com/r/tratto-san-francisco,4.2,754,$$,Italian,Downtown / Union Square,0
+bota tapas and paella bar,https://www.opentable.com/r/bota-tapas-and-paella-bar-san-francisco,4.2,556,$$$,Tapas / Small Plates,Downtown / Union Square,20
+Hayes Street Grill,https://www.opentable.com/hayes-street-grill,4.2,2960,$$$,Seafood,Civic Center / Hayes Valley / Van Ness,0
+Andiamo In Banca,https://www.opentable.com/r/andiamo-in-banca-san-francisco,4.1,236,$$,Italian,South San Francisco,6
+FANG,https://www.opentable.com/fang,4.1,1966,$$,Chinese,SOMA,8
+Trace,https://www.opentable.com/trace,4.1,1017,$$,American,SOMA,0
+Hyde Street Seafood House & Raw Bar,https://www.opentable.com/hyde-street-seafood-house-and-raw-bar,4.1,715,$$,Seafood,Russian Hill,0
+Rangoon Ruby Burmese Cuisine - SF,https://www.opentable.com/rangoon-ruby-burmese-cuisine-sf,4.1,31,$$,Burmese,Russian Hill,0
+Maison Danel,https://www.opentable.com/r/maison-patisserie-san-francisco,4.1,21,$$$,French,Russian Hill,0
+Nob Hill Club at the Mark Hopkins,https://www.opentable.com/nob-hill-club-at-the-mark-hopkins,4.1,22,$$$,Californian,Nob Hill,0
+Ristobar,https://www.opentable.com/r/ristobar-larkspur,4.1,12,$$$,Italian,Marina / Cow Hollow / Presidio,28
+Wasabi & Ginger,https://www.opentable.com/wasabi-and-ginger,4.1,5,$$,Japanese,Marina / Cow Hollow / Presidio,0
+Yank Sing - Rincon Center,https://www.opentable.com/yank-sing-rincon-center,4.1,2102,$$$,Dim Sum,Financial District / Embarcadero,58
+California Pizza Kitchen - 53 Third Street - PRIORITY SEATING,https://www.opentable.com/r/california-pizza-kitchen-san-francisco,4.1,6,$$,American,Downtown / Union Square,0
+Le Central,https://www.opentable.com/r/le-central-san-francisco,4.1,1716,$$,French,Downtown / Union Square,0
+Pazzia,https://www.opentable.com/r/pazzia-san-francisco,4,1,$$$,Italian,SOMA,0
+La Mediterranee - Fillmore,https://www.opentable.com/r/la-mediterranee-fillmore-san-francisco,4,2,$$,Mediterranean,Pacific Heights,0
+Ten-Ichi Restaurant,https://www.opentable.com/r/ten-ichi-restaurant-san-francisco,4,28,$$$,Japanese,Pacific Heights,0
+Laurel Court Restaurant & Bar - Fairmont San Francisco,https://www.opentable.com/laurel-court-restaurant-and-bar-fairmont-san-francisco,4,1218,$$$,Californian,Nob Hill,0
+Deccan Spice,https://www.opentable.com/r/deccan-spice-san-francisco,4,7,$$,South Indian,Mission,0
+Clay Oven on Haight,https://www.opentable.com/clay-oven-on-haight,4,19,$$,Indian,Haight,0
+Clay Oven Indian Restaurant - West Portal,https://www.opentable.com/clay-oven-indian-restaurant-west-portal,4,89,$$,Indian,Forest Hill / West Portal,0
+Hard Rock Cafe - San Francisco,https://www.opentable.com/hard-rock-cafe-san-francisco,4,456,$$,American,Fisherman's Wharf,23
+Franciscan Crab Restaurant,https://www.opentable.com/franciscan-crab-restaurant,4,3089,$$,Seafood,Fisherman's Wharf,63
+Mikaku Restaurant,https://www.opentable.com/mikaku-restaurant,4,178,$$,Japanese,Downtown / Union Square,0
