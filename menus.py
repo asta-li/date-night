@@ -11,7 +11,6 @@ import os
 import sys
 import time
 import traceback
-import urllib.request
 import json
 
 from lxml import html
@@ -25,20 +24,23 @@ Restaurant = collections.namedtuple(
     "Restaurant", "name link rating num_reviews price cuisine district num_bookings")
 
 
-def find_in_tree(root, class_name="_1G0wk7EM8pIpucVz0MX3oo"):
-    if "class" in root.keys():
-        print(root.get("class"))
-    if "class" in root.keys() and root.get("class") == class_name:
+def find_in_tree(root, key, value):
+    """Returns a node in the tree with the matching value for the given key."""
+    if key in root.keys() and root.get(key) == value:
         return root
     for child in root:
-        result = find_in_tree(child, class_name)
+        result = find_in_tree(child, key, value)
         if result is not None:
             return result
     return None
 
 
-def find_keyword_node(root, keyword="menu"):
-    visited = set(root)
+def find_keyword_node(root, keyword):
+    """Find the first node in the tree containing the given keyword.
+    
+    If multiple child nodes at the same level satisfy the criteria, return the parent node.
+    """
+    visited = set([root])
     queue = [root]
     keyword_found = False
     keyword_nodes = []
@@ -61,22 +63,42 @@ def find_keyword_node(root, keyword="menu"):
     return None
 
 
+def collect_values(root, key):
+    """Collect all the values in the tree corresponding to the given key."""
+    values = []
+    if key in root.keys():
+        values.append(root.get(key))
+    for child in root:
+        values.extend(collect_values(child, key))
+    return values
+
+
+def collect_text(root):
+    """Collect all the text in the tree as a list."""
+    text = []
+    if root.tag != "script" and root.tag != "style" and root.text:
+        text.append(root.text)
+    for child in root:
+        text.extend(collect_text(child))
+    return text
+
+
 def parse_menu(url):
-    # response = urllib.request.urlopen(url)
-    # web_content = response.read()
-
-    # Find the node containing the menu.
-    find_keyword_node(tree)
-
+    """Parse the on-page menu given the OpenTable URL."""
     page = requests.get(url)
     tree = html.fromstring(page.content)
-    for child in tree:
-        if child.tag == "body":
-            print(child)
+
+    # Navigate into the html body.
+    for body in tree:
+        if body.tag == "body":
             break
 
-
-    import IPython; IPython.embed(); quit()
+    # Find the first node within the body containing information about the menu.
+    menu_root = find_keyword_node(body, "oc-menu")
+    if menu_root is None:
+        menu_root = find_keyword_node(body, "menu-")
+    menu_content = collect_text(menu_root)
+    return menu_content
 
 
 def main():
@@ -92,7 +114,16 @@ def main():
         for name, link, _, _, _, _, _, _ in csv.reader(f):
             if name == "name":
                 continue
-            menus[name] = parse_menu(link)
+            logger.info("Processing: {}".format(name))
+            menu_text = parse_menu(link)
+            if len(menu_text) < 5:
+                continue
+            menus[name] = menu_text
+
+            # Dump data every once in a while as we go.
+            if len(menus) % 10 == 0:
+                with open("menus.json", "w") as f:
+                    json.dump(menus, f)
             
     with open("menus.json", "w") as f:
         json.dump(menus, f)

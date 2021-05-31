@@ -32,6 +32,8 @@ def process_data_format_1(input_file, data):
 
             try:
                 # Clean up column data.
+                name.replace(" - SF", "")
+                name.replace(" - San Francisco", "")
                 name = name.split(". ")[1].strip().strip("\"") if ". " in name else name
                 link, _ = link.split("?")
                 rating = float(rating[-9:-6]) if "0 stars" not in rating else 0.0
@@ -62,6 +64,8 @@ def process_data_format_2(input_file, data):
 
             try:
                 # Clean up column data.
+                name.replace(" - SF", "")
+                name.replace(" - San Francisco", "")
                 link, _ = link.split("?")
                 rating = float(rating.split(" stars out of 5")[0].split("aria-label=\"")[1]) if " stars out of 5" in rating else 0.0
                 num_reviews = int(num_reviews.strip("()")) if num_reviews else 0
@@ -99,6 +103,7 @@ def main():
                 continue
             if "test" in item.name or "Test" in item.name or not item.link:
                 continue
+            if "- Permanently Closed"
             f.write(", ".join(str(x) for x in item._asdict().values()) + "\n")
 
 
