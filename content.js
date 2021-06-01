@@ -4,10 +4,9 @@
 //   subject: 'showPageAction',
 // });
 
-// window.onready
 
 // https://stackoverflow.com/questions/20019958/chrome-extension-how-to-send-data-from-content-script-to-popup-html
-chrome.runtime.onMessage.addListener((msg, sender, response) => {
+chrome.runtime.onMessage.addListener(async (msg, sender, response) => {
   console.log("Content");
   console.log(msg);
   console.log(sender);
@@ -27,8 +26,7 @@ chrome.runtime.onMessage.addListener((msg, sender, response) => {
     response({pastReservations: links, tabId: msg.to});
   }
 
-    // chrome.runtime.sendMessage({from: "context", subject: "pastReservations", links: links});
-
+    
   // if (request.action === "fillFields") {
   //   console.log("FILL FIELDS!")
   //   $("#user").val("name@email.com")
@@ -37,16 +35,29 @@ chrome.runtime.onMessage.addListener((msg, sender, response) => {
   
   if (msg.from === "popup" && msg.subject === "makeReservation") {
     console.log("makeReservation");
-    console.log(window.location.href)
-    
-    // TODO: Get the timeSlots and hours (+/- 0.5 hr) for reservations.
-    // chrome.storage.sync.get("color", ({ color }) => {
+    console.log(window.location.href);
 
-    for (const restaurant_url of msg.recommendedRestaurants) {
-      window.location.href = restaurant_url;
-      alert(restaurant_url);
-      console.log("RELOADED!");
+    let time_index = 0;
+    for (; time_index < msg.times; ++time_index) {
+      let success = False;
+      // Try to book this time!
+      success = True;
+      if (success) {
+        break;
+      }
     }
-    alert("RELOADED! DONE!!");
+
+    var updated_times = msg.times;
+    // Successfully booked a reservation!
+    if (time_index < msg.times.length) {
+      updated_times.splice(time_index, 1);
+    }
+
+    response({
+      tabId: msg.to,
+      times: updated_times,
+      index: msg.index,
+      recommendedRestaurants: msg.recommendedRestaurants,
+    });
   }
 });

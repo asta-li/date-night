@@ -12,33 +12,21 @@ submitButton.addEventListener("click", async () => {
   // and how long into the future to make reservations for.
   let tab = await updateTab("https://www.opentable.com/my/profile/info#reservations-past");
 
-  // chrome.tabs.update({
-  //   url: "https://www.opentable.com/my/profile/info#reservations-past"
-  // }, tab => {
   console.log("Tab updated " + tab.id);
   console.log("Sending message to content getPastReservations.");
 
-  const handlePastReservationsTab = handlePastReservations.bind(null, tab.id);
+  // const handlePastReservationsTab = handlePastReservations.bind(tab.id);
   chrome.tabs.sendMessage(
     tab.id,
     {from: "popup", to: tab.id, subject: "getPastReservations"},
-    handlePastReservationsTab);
-  // });
+    handlePastReservations);
 });
 
-const handlePastReservations = (response, tabId) => {
+const handlePastReservations = async (response) => {
   console.log("handlePastReservations");
   console.log(response);
-  console.log(tabId);
   if(chrome.runtime.lastError) {
-    // alert("Error in handlePastReservations");
-    console.log("Error in handlePastReservations - trying again.");
-    const handlePastReservationsTab = (resp) => {handlePastReservations(resp, tabId)};
-    console.log(handlePastReservationsTab);
-    chrome.tabs.sendMessage(
-      tabId,
-      {from: "popup", to: tabId, subject: "getPastReservations"},
-      handlePastReservationsTab);
+    console.log("Error in handlePastReservations");
     return;
   }
   // response.pastReservations
@@ -59,16 +47,61 @@ const handlePastReservations = (response, tabId) => {
   for (var i = 1; i <= numWeeks; ++i) {
     timeSlots.push(nextDate(dateDay, i));
   }
+  console.log(timeSlots);
 
+  // TODO: Get the timeSlots and hours (+/- 0.5 hr) for reservations.
+  // chrome.storage.sync.get("color", ({ color }) => {
+
+  let tab = await updateTab(recommendedRestaurants[0]);
+  console.log("Loaded: " + recommendedRestaurants[0]);
+  
   chrome.tabs.sendMessage(
     response.tabId,
     {
       from: "popup", 
       to: response.tabId,
       subject: "makeReservation", 
+      index: 0,
       recommendedRestaurants: recommendedRestaurants,
       times: timeSlots
-    });
+    },
+    makeReservations);
+};
+
+const makeReservations = async (response) => {
+  console.log("makeReservations");
+  console.log(response);
+  if (chrome.runtime.lastError) {
+    console.log("Error in makeReservations");
+    return;
+  }
+
+  if (response.times.length == 0) {
+    console.log("DONE MAKING RESERVATIONS!");
+    return;
+  }
+
+  let index = response.index + 1;
+
+  if (index >= response.recommendedRestaurants.length) {
+    console.log("REACHED END OF RESTAURANTS LIST!");
+    return;
+  }
+
+  let tab = await updateTab(response.recommendedRestaurants[index]);
+  console.log("Loaded: " + response.recommendedRestaurants[index]);
+  
+  chrome.tabs.sendMessage(
+    response.tabId,
+    {
+      from: "popup", 
+      to: response.tabId,
+      subject: "makeReservation", 
+      index: index,
+      recommendedRestaurants: response.recommendedRestaurants,
+      times: response.times
+    },
+    makeReservations);
 };
 
 // chrome.runtime.onMessage.addListener((msg, sender, response) => {
@@ -99,14 +132,14 @@ const handlePastReservations = (response, tabId) => {
 
 function updateTab(url) {
   return new Promise(resolve => {
-      chrome.tabs.update({url}, async tab => {
-          chrome.tabs.onUpdated.addListener(function listener (tabId, info) {
-              if (info.status === "complete" && tabId === tab.id) {
-                  chrome.tabs.onUpdated.removeListener(listener);
-                  resolve(tab);
-              }
-          });
+    chrome.tabs.update({url}, async tab => {
+      chrome.tabs.onUpdated.addListener(function listener (tabId, info) {
+        if (info.status === "complete" && tabId === tab.id) {
+          chrome.tabs.onUpdated.removeListener(listener);
+          resolve(tab);
+        }
       });
+    });
   });
 }
 
@@ -120,7 +153,7 @@ function setPageBackgroundColor() {
 
 // Returns the next date that matches the requested day of the week.
 // targetDay is an integer corresponding to the days of the week: {Sun: 0, Mon: 1, ..., Sat: 6}
-// weekIncrement is an integer corresponding to the number of weeks into the future, minimum 1.
+// weekIncrement is an integer corresponding to the number of weeks into the future, minimum 0.
 function nextDate(targetDay, weekIncrement) {
   // var days = {
   //   sunday: 0
@@ -132,6 +165,6 @@ function nextDate(targetDay, weekIncrement) {
   //   saturday: 6,
   // };
   let now = new Date();    
-  now.setDate(now.getDate() + weekIncrement * 7 + targetDay - now.getDay());
+  now.setDate(now.getDate() + weekIncrement * 7 + (7 + targetDay - now.getDay()) % 7);
   return now;
 }
